@@ -1,0 +1,16 @@
+package com.java.org;
+
+public class LoanDetails extends Bank {
+
+	@Override
+	public void perLoan() {
+		System.out.println("15%");
+	}
+	
+	public static void main(String[] args) {
+		LoanDetails ld = new LoanDetails();
+		ld.perLoan();
+		ld.homeLoan();
+		ld.eduLoan();
+	}
+}

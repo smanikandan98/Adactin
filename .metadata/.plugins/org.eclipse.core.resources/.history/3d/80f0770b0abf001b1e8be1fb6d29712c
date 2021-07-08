@@ -1,0 +1,32 @@
+package com.java.org;
+
+public class Method_Overloading {
+	
+	private void stuId(int id) {
+
+		System.out.println("Student ID is " + id);
+		
+	}
+
+	private void stuName(String name) {
+		
+		System.out.println("Student Name is " + name);
+	}
+	
+	private void stuGrade(String name, String grade) {
+		
+		System.out.println("Student Name & Grade is " + name +grade);
+
+	}
+	
+	public static void main(String[] args) {
+		Method_Overloading mo = new Method_Overloading();
+		mo.stuId(1246);
+		mo.stuName("Suba");
+		mo.stuGrade("Mani", "A");
+		
+	
+	}
+	
+}
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-21T12:01:36 IST" name="Default suite" finished-at="2021-06-21T12:01:36 IST" duration-ms="43">
+    <groups>
+    </groups>
+    <test started-at="2021-06-21T12:01:36 IST" name="Default test" finished-at="2021-06-21T12:01:36 IST" duration-ms="43">
+      <class name="com.maven.testng.TestNg.DataProviderFeature">
+        <test-method signature="credentials(java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.TestNg.DataProviderFeature@37f1104d]" started-at="2021-06-21T12:01:36 IST" name="credentials" data-provider="testData" finished-at="2021-06-21T12:01:36 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentials -->
+        <test-method signature="credentials(java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.TestNg.DataProviderFeature@37f1104d]" started-at="2021-06-21T12:01:36 IST" name="credentials" data-provider="testData" finished-at="2021-06-21T12:01:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentials -->
+        <test-method signature="credentials(java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.TestNg.DataProviderFeature@37f1104d]" started-at="2021-06-21T12:01:36 IST" name="credentials" data-provider="testData" finished-at="2021-06-21T12:01:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentials -->
+        <test-method signature="credentials(java.lang.String, java.lang.String)[pri:0, instance:com.maven.testng.TestNg.DataProviderFeature@37f1104d]" started-at="2021-06-21T12:01:36 IST" name="credentials" data-provider="testData" finished-at="2021-06-21T12:01:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentials -->
+      </class> <!-- com.maven.testng.TestNg.DataProviderFeature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+package com.java.org;
+
+public class Method_Overriding {
+	
+	public void Girl() {
+		
+		System.out.println("Suba");
+	}
+
+	public static void main(String[] args) {
+		Method_Overriding m = new Method_Overriding();
+		Method_Overriding n = new Method_Overriding1();
+		m.Girl();
+		
+		
+	}
+		
+		
+	}
+

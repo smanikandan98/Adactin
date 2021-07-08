@@ -1,0 +1,6 @@
+Feature: User signup the facebook application
+	
+	Scenario: user signup the application
+		Given user launches the url of the apllication
+		When user clicks the signup button
+		Then user validate the page		

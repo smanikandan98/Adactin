@@ -1,0 +1,7 @@
+package com.fb.stepdefinition;
+
+import com.baseclass.org.Base_Class;
+
+public class Asd  extends Base_Class{
+
+}

@@ -1,0 +1,23 @@
+package com.fb.stepdefinition;
+
+import com.baseclass.org.Base_Class;
+
+import cucumber.api.java.en.*;
+
+public class Asd  extends Base_Class{
+	
+	@Given("^user launches the url of the apllication$")
+	public void user_launches_the_url_of_the_apllication() throws Throwable {
+	   
+	}
+
+	@When("^user clicks the signup button$")
+	public void user_clicks_the_signup_button() throws Throwable {
+	    
+	}
+
+	@Then("^user validate the page$")
+	public void user_validate_the_page() throws Throwable {
+	   
+
+}

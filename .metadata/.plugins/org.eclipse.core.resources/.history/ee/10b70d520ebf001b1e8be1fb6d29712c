@@ -1,0 +1,19 @@
+package com.java.org;
+
+public class Method_Overriding {
+	
+	public void Girl() {
+		
+		System.out.println("Suba");
+	}
+	
+	public void Boy() {
+		
+		System.out.println("Mani");
+	}
+
+	public void mani() {
+		Method_Overriding mor = new Method_Overriding();
+		
+	}
+}

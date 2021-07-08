@@ -1,0 +1,7 @@
+package com.java.org;
+
+public class Method_Overriding1 extends Method_Overriding {
+	
+	
+
+}

@@ -1,0 +1,33 @@
+package com.fb.stepdefinition;
+
+import org.openqa.selenium.WebDriver;
+
+import com.baseclass.org.Base_Class;
+import com.fb.pom.MainPage;
+import com.fb.runner.Runner;
+
+import cucumber.api.java.en.*;
+
+public class Asd  extends Base_Class{
+	
+	public static WebDriver driver = Runner.driver;
+	
+	MainPage mp = new MainPage(driver);
+			
+
+@Given("^user launches the url of the facebook apllication$")
+public void user_launches_the_url_of_the_facebook_apllication() throws Throwable {
+   url("https://www.facebook.com/");
+}
+
+@When("^user clicks the signup button$")
+public void user_clicks_the_signup_button() throws Throwable {
+    
+}
+
+
+
+
+
+
+	}

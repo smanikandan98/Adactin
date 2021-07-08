@@ -1,0 +1,30 @@
+package com.java.org;
+
+public class Student_Details {
+	
+	private void stuId() {
+		
+		System.out.println("Student ID is 1246");
+	}
+
+	private void stuName() {
+		
+		System.out.println("Student Name is Subashini");
+	}
+	
+	private void stuSubject() {
+		
+		System.out.println("Maths");
+	}
+	private void stuMark() {
+		
+		System.out.println("Mark is 95");
+	}
+	
+	public static void main(String[] args) {
+		Student_Details sd = new Student_Details();
+		sd.stuId();
+		sd.stuName();
+		sd.stuMark();
+	}
+}
